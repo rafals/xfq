@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  line-height: 2;
+  font-family: Tahoma, Verdana;
+  color: #ccc;
+  font-size: 30pt;
+}
+
+.right {
+  width: 90%;
+  text-align: right;
+}
+
+.big {
+  padding-top: 150px;
+  font-size: 100pt;
+  line-height: 2;
+  color: black;
+}
+
+.big a {
+  color: black;
+}
+
+.black {
+  background-color: black;
+}
+
+.center {
+  background-color: white;
+  height: 100%;
+  font-family: Tahoma, Verdana;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+input { font-family: Courier; font-size: 40px;  }
