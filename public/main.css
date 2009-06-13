@@ -1,35 +1,18 @@
 body {
+  line-height: 1.5;
   text-align: center;
-  line-height: 2;
   font-family: Tahoma, Verdana;
   color: #ccc;
   font-size: 30pt;
+  margin: 0;
 }
 
-.right {
-  width: 90%;
-  text-align: right;
+a.alpha {
+  opacity: .8;
 }
 
-.big {
-  padding-top: 150px;
-  font-size: 100pt;
-  line-height: 2;
-  color: black;
-}
-
-.big a {
-  color: black;
-}
-
-.black {
-  background-color: black;
-}
-
-.center {
-  background-color: white;
-  height: 100%;
-  font-family: Tahoma, Verdana;
+a.alpha:hover {
+  opacity: 1;
 }
 
 a {
@@ -41,4 +24,164 @@ a:hover {
   color: red;
 }
 
-input { font-family: Courier; font-size: 40px;  }
+input { font-family: Tahoma, Verdana; font-size: 80px;  }
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.big {
+  font-size: 100pt;
+}
+
+.medium {
+  font-size: 66pt;
+}
+
+.zaloguj, .zarejestruj {
+  line-height: 1.2;
+  font-size: 70pt;
+}
+
+.menu1 {
+  line-height: 1;
+  font-size: 66pt;
+}
+
+.menu2 {
+  font-size: 33pt;
+}
+
+.bottom {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
+}
+
+.side-bar {
+  line-height: 1;
+  font-size: 30pt;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: left;
+}
+
+.para-info {
+  top: 50px;
+  line-height: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.user-info {
+  padding-top: 150px;
+  line-height: 1;
+}
+
+.ocena { color: orange;}
+.losowan { color: black;}
+.ilosc_ocen { color: blue;}
+
+.profil_bar {
+  font-size: 30pt;
+}
+.profil_bar2 {
+  padding-left: 20px;
+  font-size: 30pt;
+}
+
+.active{
+  color: black;
+}
+
+.fani, .autorzy { 
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  position: absolute;
+  font-size:;
+}
+
+.fani { bottom: 10px;}
+.autorzy { top: 10px;}
+
+
+.black {
+  color: black;
+}
+
+.gray {
+  color: #ccc;
+}
+
+.top50 {
+  padding-top: 50px;
+}
+
+.top100, .signup {
+  padding-top: 100px;
+}
+
+.top150, .xfq, .login {
+  padding-top: 150px;
+}
+
+.xfq {
+  color: black;
+  font-size: 100pt;
+  line-height: 1;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.red {
+  color: red;
+}
+
+.two-columns {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.width900 {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.left-column {
+  width: 500px;
+  text-align: center;
+  float: left;
+}
+
+.right-column {
+  width: 300px;
+  text-align: center;
+  float: right;
+}
+
+.akapit {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ranking {
+  line-height: 1;
+}
